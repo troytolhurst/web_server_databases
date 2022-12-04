@@ -107,8 +107,6 @@ As you work through you will see expanding boxes like this:
 
 </details>
 
-
-
 If the page isn't directly practical, you will see at the bottom a list of
 Investigations. These are research exercises for you to undertake. They have
 :hot_pepper:s next to them from 1-5 to indicate how challenging we think they
