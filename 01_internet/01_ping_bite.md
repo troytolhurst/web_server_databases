@@ -2,7 +2,7 @@
 
 Learn to explain how computers send information to each other.
 
-[Video Alternative](...)
+[Video Alternative](https://www.youtube.com/watch?v=wAE-VFCr_dQ&t=0s)
 
 ## The question: How do computers communicate?
 
@@ -11,8 +11,11 @@ two hundred years! To the invention of the electric telegraph.
 
 The electric telegraph was a way of sending messages over long distances using
 electrical signals. They would make a very long metal wire and run an electric
-current through it. This could be detected at the other end. Through systems
-like Morse code, alphabetical messages could be sent.
+current through it. This could be detected at the other end. 
+
+Through systems like Morse code, which involves tapping on a single key to
+create patterns of long and short signals, then translated into long and short
+beeps, alphabetical messages could be sent.
 
 <details>
   <summary>:speech_balloon: That must have been very exciting! Tell me more.</summary>
@@ -58,6 +61,9 @@ August 19th 1858:
 > friendship between the kindred nations, and an instrument destined by Divine
 > Providence to diffuse religion, civilization, liberty, and law throughout the
 > world.
+
+[If you want to hear this in Morse code you can paste it in here and hit
+play.](https://morsecode.world/international/translator.html)
 
 The next day, New York sounded 100 guns, hung the streets with flags, and rang
 church bells. A few weeks later there was a parade, a torchlight procession, and
@@ -111,7 +117,7 @@ DESCRIPTION
 
 There's a lot going on there! It may not be so easy to understand yet. Let's try
 running it. We're going to give `ping` something called an `IP address`. More on
-those in the next step, but for now just imagine it as the address of another
+those in the coming steps, but for now just imagine it as the address of another
 computer somewhere.
 
 ```

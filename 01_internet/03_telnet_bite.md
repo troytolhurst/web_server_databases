@@ -6,7 +6,10 @@ Learn to explain how computers share a common physical connection.
 
 ## The question: How do computers share a common physical connection?
 
-The dirty secret of the Internet is that almost all of it is fake.
+You might have heard of the idea of cyberspace. It conjures images of cool kids
+surfing through virtual environments, fighting viruses and such. The Internet
+isn't really like that, but here is a grain of truth in this idea. A lot of the
+Internet isn't strictly 'real'.
 
 We saw before how having an individual cable between every person would be
 impossible, and how circuit switching enabled the use of central exchanges to
@@ -207,7 +210,7 @@ Now let's start `telnet` again. Bring up another terminal alongside the one with
 ; telnet xf.mkrs.link
 ```
 
-<!-- OMITTED -->
+![Example of a Termshark window with packets](../resources/termshark-window.png)
 
 There's a lot of information here. I'll draw your attention to the key parts —
 you can tune out the rest.

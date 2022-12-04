@@ -2,7 +2,7 @@
 
 Learn to explain how computers route information over a network.
 
-[Video Alternative](...)
+[Video Alternative](https://www.youtube.com/watch?v=wAE-VFCr_dQ&t=689s)
 
 ## The question: How do computers route information over a network?
 
@@ -76,7 +76,7 @@ highlighted](../resources/network-4.excalidraw.png)
 
 In this way, the route between points in the network can adapt to different
 conditions. If one route is very busy then other routes can be taken. Similarly,
-if one exchange breaks down, or a link is severed, then network can take other
+if one exchange breaks down, or a link is severed, the network can take other
 routes to adapt.
 
 The Internet works in a similar way. Your computer connects to a router in your
@@ -190,7 +190,7 @@ _But wait,_ I hear you say, _Makers HQ is in London!_ True, at least for now.
 But if you play with traceroute a bit you will find that a lot of the Internet
 is centralised in the United States.
 
-For example, let's look at Google:
+Let's look at Google:
 
 ```shell
 ; traceroute google.com
