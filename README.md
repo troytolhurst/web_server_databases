@@ -23,51 +23,27 @@ Work through each of these exercises in sequence.
 These exercises build up your understanding of the current Internet by looking
 at its history, development, and some practical tools.
 
-1. [`ping`, and how we persuaded computers to talk](01_internet/01_ping_bite.ed.md)
-2. [`traceroute`, and how we organised computers into networks](01_internet/02_traceroute_bite.ed.md)
-3. [`telnet`, and how formed many connections over one cable](01_internet/03_telnet_bite.ed.md)
-4. [`curl`, and how we developed common languages](01_internet/04_curl_bite.ed.md)
-5. [`dig`, and how developed human-readable names](01_internet/05_dig_bite.ed.md)
+1. [`ping`, and how we persuaded computers to talk](01_internet/01_ping_bite.md)
+2. [`traceroute`, and how we organised computers into networks](01_internet/02_traceroute_bite.md)
+3. [`telnet`, and how formed many connections over one cable](01_internet/03_telnet_bite.md)
+4. [`curl`, and how we developed common languages](01_internet/04_curl_bite.md)
+5. [`dig`, and how developed human-readable names](01_internet/05_dig_bite.md)
 
-/** @TODO
-6. `mkcert`, and how we secured the internet 🔴
-7. `docker`, and how we created the cloud 🔴
-**/
+<!-- OMITTED -->
 
 ### Phase Two: Wrapping up Servers
 
 These exercises guide you through deploying a web application in a container
 using Docker.
 
-1. [Containerising a web server](02_containers/01_containerising.ed.md)
-2. [Deploying a web server](02_containers/02_deploying.ed.md)
+1. [Containerising a web server](02_containers/01_containerising.md)
+2. [Deploying a web server](02_containers/02_deploying.md)
 
-/** @TODO
-3. [Connecting a container to a database](02_containers/03_connecting_to_a_database.ed.md)
-**/
+<!-- OMITTED -->
 
 _Further materials on CI-CD will be added later in the week._
 
-/**
-
-### Phase Three: CI-CD
-
-These exercises guide you through setting up Continuous Integration and
-Deployment for a web application.
-
-1. Continuous Integration: Running the test suite
-2. Continuous Deployment: Deploying the system
-
-### Phase Four: Building
-
-These exercises challenge you to add more features to your application in a way
-that will work in deployment.
-
-* Adding a front-end
-* Using a production web-server
-* Uploading files
-
-**/
+<!-- OMITTED -->
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
