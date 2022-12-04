@@ -104,7 +104,7 @@ contact a resolver to get `www.example.org`s IP address, and then send the
 request packets to that IP address.
 
 <details>
-  <summary>:speech_bubble: So how do we know the IP address of the resolver?</summary>
+  <summary>:speech_balloon: So how do we know the IP address of the resolver?</summary>
 
   ---
 
@@ -122,7 +122,7 @@ request packets to that IP address.
 </details>
 
 <details>
-  <summary>:speech_bubble: Who tells the resolver what the IP address is?</summary>
+  <summary>:speech_balloon: Who tells the resolver what the IP address is?</summary>
 
   When someone purchases a domain name (e.g. `makers.tech`) they enter into an
   indirect agreement with an organisation who maintains the top-level domain
