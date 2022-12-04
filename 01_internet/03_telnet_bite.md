@@ -236,6 +236,8 @@ information you've highlighted.
   
   It is a bit distracting but fortunately it won't bite.
 
+  ---
+
 </details>
 
 We can see that establishing the connection involves sending a few packets back
