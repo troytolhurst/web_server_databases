@@ -18,6 +18,10 @@ challenges.
 
 Work through each of these exercises in sequence.
 
+### Phase Zero: Introduction
+
+1. [Introduction to the module](00_introduction/01_introduction.md)
+
 ### Phase One: Networking
 
 These exercises build up your understanding of the current Internet by looking
