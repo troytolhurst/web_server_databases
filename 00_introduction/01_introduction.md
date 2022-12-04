@@ -109,8 +109,9 @@ As you work through you will see expanding boxes like this:
 
 If the page isn't directly practical, you will see at the bottom a list of
 Investigations. These are research exercises for you to undertake. They have
-:hot_pepper:s next to them from 1-5 to indicate how challenging we think they
-are.
+ratings from :hot_pepper: to
+:hot_pepper::hot_pepper::hot_pepper::hot_pepper::hot_pepper: to indicate how
+challenging we think they are.
 
 To help you deepen your learning, we'd recommend you pick a few of these
 investigations according to what you find interesting and challenging. Most
