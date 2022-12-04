@@ -115,14 +115,14 @@ We'll need to install them both:
 Let's take `telnet` for a spin before we look at its packets.
 
 ```shell
-; telnet rot13-telnet.cloud.mkrs.link
+; telnet xf.mkrs.link
 ```
 
 This starts `telnet` to connect to a test server that the Makers team has set
 up. After a moment you should see a message saying we are connected:
 
 ```
-Connected to rot13-telnet.cloud.mkrs.link.
+Connected to xf.mkrs.link.
 Escape character is '^]'.
 ```
 
@@ -204,7 +204,7 @@ Now let's start `telnet` again. Bring up another terminal alongside the one with
 `termshark` in it **so that you can see both at the same time**, and then run:
 
 ```shell
-; telnet rot13-telnet.cloud.mkrs.link
+; telnet xf.mkrs.link
 ```
 
 <!-- OMITTED -->

@@ -121,6 +121,8 @@ called a `Dockerfile`.
 Here's the `Dockerfile` you will need. It includes some comments that explain
 what it does.
 
+<!-- OMITTED -->
+
 ```dockerfile
 # Imagine this file as a recipe for setting up a virtual computer.
 
