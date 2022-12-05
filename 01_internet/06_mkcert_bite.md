@@ -2,9 +2,7 @@
 
 Learn to explain how Internet connections are secured.
 
-<!-- OMITTED -->
-
-_Video coming soon._
+[Video Alternative](https://www.youtube.com/watch?v=Ivym1ZaBxfI&t=766s)
 
 ## The question: How are Internet connections secured?
 
@@ -192,7 +190,8 @@ Now restart the server and open the page again:
 Now when you click into the icon in the address bar you will see something like
 this:
 
-![A browser notice to say that the website connection is secure](../resources/secure-notice.png)
+![A browser notice to say that the website connection is
+secure](../resources/secure-notice.png)
 
 And if you try to snoop on the connection with `termshark` you'll see that the
 contents are encrypted. You won't be able to see the plain text contents of the

@@ -2,9 +2,7 @@
 
 Learn to explain what the cloud is
 
-<!-- OMITTED -->
-
-_Video coming soon._
+[Video Alternative](https://www.youtube.com/watch?v=Ivym1ZaBxfI&t=1492s)
 
 ## The question: What is the cloud?
 
@@ -178,7 +176,7 @@ similarity is one of the reasons Macs are popular amongst software engineers).
 Let's run Linux using Docker:
 
 ```shell
-# Ubuntu is a version ('distribution') of Linux
+# Ubuntu is a kind ('distribution') of Linux
 ; docker run -it ubuntu /bin/bash
 root@b4ff79fcfc88:/#
 ```

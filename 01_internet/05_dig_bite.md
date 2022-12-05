@@ -2,9 +2,7 @@
 
 Learn to explain how domain names get translated to addresses.
 
-<!-- OMITTED -->
-
-_Video coming soon._
+[Video Alternative](https://www.youtube.com/watch?v=Ivym1ZaBxfI&t=0s)
 
 ## The question: How does `example.org` get translated to an address?
 
@@ -124,7 +122,9 @@ request packets to that IP address.
 </details>
 
 <details>
-  <summary>:speech_balloon: Who tells the resolver what the IP address is?</summary>
+  <summary>:speech_balloon: Who tells the resolver what the IP address for a particular domain is?</summary>
+
+  ---
 
   When someone purchases a domain name (e.g. `makers.tech`) they enter into an
   indirect agreement with an organisation who maintains the top-level domain
@@ -133,6 +133,8 @@ request packets to that IP address.
   That organisation (called a registry) maintains an authoritative name server
   which can be queried to find out the IP address (or another server to go to in
   order to find out the IP address) of a particular domain name.
+
+  ---
 
 </details>
 
@@ -145,26 +147,29 @@ If we just want to find out the IP address for a particular domain, we can use
 
 ```shell
 ; nslookup example.org
+# This is the address of our resolver, not of example.org
 Server:    192.168.6.1
 Address:   192.168.6.1#53 # Port 53 is the port for DNS
 
+# Below is the address of example.org
 Non-authoritative answer:
 Name:	example.org
 Address: 93.184.216.34
 ```
 
-So the IP address of example.org is `93.184.216.34`.
+So the IP address of `example.org` is `93.184.216.34`.
 
-Your lines might be a bit different due to your router's DNS server maybe having
-a different IP address, and potentially `example.org` having multiple IP
-addresses that we can use to request its content.
+> **Note**  
+> Your lines might be a bit different due to your router's DNS server maybe
+> having a different IP address, and potentially `example.org` having multiple
+> IP addresses that we can use to request its content.
 
 That's good. But what if we wanted to take a closer look at the DNS records
 associated with `example.org`, say for example if we needed to debug a problem.
 For this we can use `dig`.
 
 `dig` allows us to query the DNS records associated with a particular domain.
-There are a number of possible results. One important one is an `A` record,
+There are a number of possible record types. One important one is an `A` record,
 which dictates one or more IP addresses for the domain.
 
 ```shell
@@ -201,7 +206,7 @@ However, what if it recently changed? We might want to go straight to the
 authoritative nameserver for that domain. For that, we need to know what it is,
 and for this, we can look at the `NS` record.
 
-```
+```shell
 ; dig example.org NS
 ; <<>> DiG 9.10.6 <<>> example.org NS
 ;; global options: +cmd
