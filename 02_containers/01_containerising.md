@@ -24,35 +24,16 @@ _Video coming soon._
 
 ### What are containers?
 
-Start by [installing Docker](https://www.docker.com). It might take a while so
-you can read down while you wait.
+Start by [installing Docker](https://www.docker.com) if you haven't already. It
+might take a while so you can read down while you wait.
 
 When you containerise a piece of software, you use a tool to gather up
 absolutely everything that the software needs to run. Everything from its
 dependencies, to the language version, to even having a terminal to run in.
 
-When you've done this you have what's called a 'container'. You can run
-containers in any compatible container-hosting system and it will (or really
-_should_ run exactly the same as it does on your local computer).
-
-<details>
-  <summary>Why are they called containers?</summary>
-
-  ---
-
-  They are called containers in an analogy to a shipping container. Shipping
-  containers are a standardised way of shipping goods. They are the same size,
-  shape, and have the same fittings. This means that the international shipping
-  system can broadly ignore what's inside and treat them all in the same way.
-
-  This is what containerised software is designed to achieve. You can take your
-  software, package it up in a standardised way, and then send it to your cloud
-  host. That host can totally ignore the specifics of your software and treat it
-  in the same way as any other containerised software.
-
-  ---
-
-</details>
+When you've done this you have a container image. You can run container images
+in any compatible container-hosting system and they will (or really _should_)
+run exactly the same as it does on your local computer).
 
 One popular system for doing this is called Docker. We're going to use it to
 package up a small Flask app.
@@ -161,27 +142,6 @@ RUN pipenv install --system --deploy
 CMD ["python", "app.py"]
 ```
 
-<details>
-  <summary>:speech_balloon: Virtual computer? I thought you said it was a container?</summary>
-
-  ---
-
-  Good observation! A container isn't actually a virtual computer, it's more of
-  a virtual environment that we can run programs in. This might seem like a
-  very subtle difference, and it is.
-
-  The difference is that a virtual computer — sometimes called virtualisation —
-  involves simulating the hardware of a computer. Docker doesn't do that.
-  Instead, Docker uses the hardware of the computer it is on but packages up all
-  of the environment that each program needs and runs it just like it was one
-  single program.
-
-  This _is_ a fairly subtle distinction so don't worry about it too much.
-
-  ---
-
-</details>
-
 Now we've got a `Dockerfile` we'll get Docker to build it:
 
 ```shell
@@ -283,21 +243,6 @@ additional setup — this includes all of the major cloud computing providers li
 AWS, Azure, and Google Cloud Platform.
 
 In the next step we'll deploy it to the cloud.
-
-## Investigations
-
-_These exercises are marked with :hot_pepper: emojis to denote how challenging
-they are. A single chilli :hot_pepper: is the most straightforward, and five
-:hot_pepper::hot_pepper::hot_pepper::hot_pepper::hot_pepper: would be
-challenging even for a professional engineer. Pick whichever you prefer._
-
-This is a set of questions you can investigate to learn more. Pick the ones that
-interest you.
-
-* :hot_pepper: How do you run a container in the background?
-* :hot_pepper: How do you stop a container running in the background?
-* :hot_pepper::hot_pepper: Docker can in principle containerise any application.
-  Can you find any cool or useful containers out there?
 
 
 [Next Challenge](02_deploying.md)

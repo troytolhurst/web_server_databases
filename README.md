@@ -33,8 +33,7 @@ at its history, development, and some practical tools.
 4. [`curl`, and how we developed common languages](01_internet/04_curl_bite.md)
 5. [`dig`, and how developed human-readable names](01_internet/05_dig_bite.md)
 6. [`mkcert`, and how we secured the internet](01_internet/06_mkcert_bite.md)
-
-<!-- OMITTED -->
+7. [`docker`, and how we created the cloud](01_internet/07_docker_bite.md)
 
 ### Phase Two: Wrapping up Servers
 

@@ -87,7 +87,7 @@ I'll get back to you.
 
 Let's see how this technique is used to secure web connections.
 
-## The tools: `mkcert`
+## The tool: `mkcert`
 
 We're going to set up a local web server and create a secure connection with it.
 
@@ -224,6 +224,8 @@ interest you.
   can decrypt them with my private key. What technologies and systems prevent
   this? In what situation might they fail?
 
+
+[Next Challenge](07_docker_bite.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
