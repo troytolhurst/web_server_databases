@@ -2,7 +2,9 @@
 
 Learn to explain how domain names get translated to addresses.
 
-[Video Alternative](...)
+<!-- OMITTED -->
+
+_Video coming soon._
 
 ## The question: How does `example.org` get translated to an address?
 
