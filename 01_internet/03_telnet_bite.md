@@ -2,7 +2,7 @@
 
 Learn to explain how computers share a common physical connection.
 
-[Video Alternative](...)
+[Video Alternative](https://www.youtube.com/watch?v=5dDqQWkEKzU&t=0s)
 
 ## The question: How do computers share a common physical connection?
 
@@ -94,8 +94,8 @@ the destination.
 Now, we only need one cable linking each computer to the router. Even better,
 that cable could actually be used to communicate with multiple other computers
 at once. Kay might have a chat open with several other people at the same time.
-Each chat would generate packets with different addresses, then forwarded onto
-their destination.
+Each chat would generate packets with different addresses which would then be
+forwarded through routers onto their destination.
 
 We'll take a look into how this works in practice now, but we'll review again at
 the end.

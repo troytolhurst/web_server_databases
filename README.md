@@ -32,6 +32,7 @@ at its history, development, and some practical tools.
 3. [`telnet`, and how formed many connections over one cable](01_internet/03_telnet_bite.md)
 4. [`curl`, and how we developed common languages](01_internet/04_curl_bite.md)
 5. [`dig`, and how developed human-readable names](01_internet/05_dig_bite.md)
+6. [`mkcert`, and how we secured the internet](01_internet/06_mkcert_bite.md)
 
 <!-- OMITTED -->
 

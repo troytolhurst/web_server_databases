@@ -267,6 +267,8 @@ interest you.
   fit into the growth of the Internet?
 
 
+[Next Challenge](06_mkcert_bite.md)
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---

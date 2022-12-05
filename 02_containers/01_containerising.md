@@ -10,6 +10,10 @@ Learn to containerise a web server using docker.
 
 ## Guidance
 
+<!-- OMITTED -->
+
+_Video coming soon._
+
 > **Note**  
 > Unlike some previous exercises, this sort of work can be a bit
 > paint-by-numbers. We won't shy away from this — if there's one right way to do
@@ -119,9 +123,7 @@ everything it will need to run successfully. Since we're using Docker, this is
 called a `Dockerfile`.
 
 Here's the `Dockerfile` you will need. It includes some comments that explain
-what it does.
-
-<!-- OMITTED -->
+what it does. If you're using our sample code then it's already there for you.
 
 ```dockerfile
 # Imagine this file as a recipe for setting up a virtual computer.

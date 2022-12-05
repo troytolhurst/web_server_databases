@@ -10,6 +10,10 @@ Learn to explain how containerisation helps with deployment.
 
 ## Guidance
 
+<!-- OMITTED -->
+
+_Video coming soon._
+
 We're going to use a tool called Exoframe to deploy our container to the Cloud..
 This is a simplified cloud deployment system, providing only the most essential
 functionality. In the real world you will use a cloud provider like AWS Elastic
@@ -174,8 +178,6 @@ ID_OF_DEPLOYMENT` to remove all the extras.
 
 </details>
 
-
-[Next Challenge](03_connecting_to_database.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

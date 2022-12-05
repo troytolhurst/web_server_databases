@@ -2,7 +2,7 @@
 
 Learn to explain how computers transmit structured data
 
-[Video Alternative](...)
+[Video Alternative](https://www.youtube.com/watch?v=5dDqQWkEKzU&t=1031s)
 
 ## The question: How do computers transmit structured data?
 
@@ -149,8 +149,8 @@ you might find it interesting to see how in depth they are.
 ## The tool: `curl`
 
 You may have met `curl` before. We can use it to request files over the Internet
-using HTTP. It also supports a number of other protocols. Let's look at three
-of them using `curl`'s 'verbose' mode which gives more detail.
+using HTTP. It also supports a number of other protocols. Let's look at two of
+them using `curl`'s 'verbose' mode which gives more detail.
 
 I'll annotate each part so you can see what it does. You don't need to learn the
 details, just note that they are using structured approaches to communicate.
@@ -362,7 +362,7 @@ Trying 213.136.12.213:21...
 * Maxdownload = -1
 * Getting file with size: 2898547
 { [data] } 
-# We downloading the file and save it to /tmp/song30.mp3.
+# We download the file and save it to /tmp/song30.mp3.
 * Remembering we are in dir "OpenBSD/songs/"
 < 226 Transfer complete
 # The server tells us that the transfer is complete.

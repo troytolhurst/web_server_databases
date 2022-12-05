@@ -1,8 +1,14 @@
 # Introduction to the Module
 
+Most of the time, software doesn't just sit on your computer, it has to be
+packaged up and made available to users somehow. In the current era, this
+typically involves either deploying it to the web, or in some other way
+integrating it with the Internet. Usually this involves something called 'The
+Cloud'.
+
 This module is designed to help you learn about cloud computing, what it is, how
 to navigate cloud systems, and how to work with a simple CI-CD deployment
-system.
+system. You will also learn a lot about the Internet in a wider sense.
 
 ## Key Terms
 
@@ -26,7 +32,8 @@ Here are some key terms for this module.
   computers that you would need in order to run it, set them up, probably
   connect them to the Internet, and maintain them yourself. If you needed the
   servers for only a few weeks, you still had to buy them outright, and then
-  hopefully sell them to someone else.
+  hopefully sell them to someone else. This is typically called _on-premise_
+  computing.
 
   In Cloud Computing, you go to a cloud provider company like Amazon Web
   Services (AWS) and say "I've packaged up my web application into this file —
