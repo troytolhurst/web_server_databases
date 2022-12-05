@@ -128,7 +128,28 @@ you're welcome to try it.
 Aim to get through to the end of phase three (setting up CI-CD) by the end of
 the module.
 
-<!-- OMITTED -->
+<details>
+  <summary>:speech_balloon: These :hot_pepper:s are a cool idea — who came up with them.</summary>
+
+  ---
+
+  A Makers alumni called Rita. Here was her explanation, slightly amended:
+
+  > We were talking about a more complex workshop you ran in week three. I
+  > thought it was great you decided to expose students to something more
+  > advanced, and brought up my main criticism of Makers — sometimes there is a
+  > lot of hesitation when it comes to students' ability to manage complexity
+  > for themselves. John confirmed that there is fear of overwhelming students.
+  > 
+  > So my solution, have chilli ratings :hot_pepper::hot_pepper::hot_pepper:
+  > like on a menu. Then, people can calibrate how stressed they should feel
+  > about not understanding something — and it can be their responsibility to
+  > manage it, not the coaches. It would allow people who enjoy spicy to have
+  > access to that, and those who don't to feel less overwhelmed. (You did that
+  > with the workshops too, with a verbal how much should I worry if I don't get
+  > all of this? rating)
+
+</details>
 
 That's it. To get started, head back to the [main page](../README.md).
 
