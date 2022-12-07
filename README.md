@@ -42,10 +42,16 @@ using Docker.
 
 1. [Containerising a web server](02_containers/01_containerising.md)
 2. [Deploying a web server](02_containers/02_deploying.md)
+3. [Connecting a container to a database](02_containers/03_connecting_to_a_database.md)
+4. [Removing secrets](02_containers/04_removing_secrets.md)
 
-<!-- OMITTED -->
+### Phase Three: CI-CD
 
-_Further materials on CI-CD will be added later in the week._
+These exercises guide you through setting up Continuous Integration and
+Deployment for a web application.
+
+1. Continuous Integration: Running the test suite
+2. Continuous Deployment: Deploying the system
 
 <!-- OMITTED -->
 

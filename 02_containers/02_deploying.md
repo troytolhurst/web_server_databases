@@ -1,4 +1,4 @@
-# Containerising
+# Deploying
 
 In this phase you will wrap a simple web application into containers and deploy
 them to a toy cloud hosting system we have provided. We've containerised our
@@ -12,7 +12,7 @@ Learn to explain how containerisation helps with deployment.
 
 [Video Alternative](https://www.youtube.com/watch?v=N4ZtwCXP6C4&t=1085s)
 
-We're going to use a tool called Exoframe to deploy our container to the Cloud..
+We're going to use a tool called Exoframe to deploy our container to the Cloud.
 This is a simplified cloud deployment system, providing only the most essential
 functionality. In the real world you will use a cloud provider like AWS Elastic
 Container Service or similar.
@@ -176,6 +176,8 @@ ID_OF_DEPLOYMENT` to remove all the extras.
 
 </details>
 
+
+[Next Challenge](03_connecting_to_a_database.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

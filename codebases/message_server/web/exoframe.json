@@ -1,0 +1,10 @@
+{
+  "name": "YOURNAME-message-web",
+  "domain": "YOURNAME-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "YOURNAME-message-database",
+    "POSTGRES_PASSWORD": "47378f40d8ff4bffdfc5b883ee4e250c0eeb26bb"
+  }
+}
