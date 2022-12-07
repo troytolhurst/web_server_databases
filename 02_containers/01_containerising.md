@@ -10,9 +10,7 @@ Learn to containerise a web server using docker.
 
 ## Guidance
 
-<!-- OMITTED -->
-
-_Video coming soon._
+[Video Alternative](https://www.youtube.com/watch?v=N4ZtwCXP6C4&t=0s)
 
 > **Note**  
 > Unlike some previous exercises, this sort of work can be a bit
@@ -111,7 +109,7 @@ what it does. If you're using our sample code then it's already there for you.
 
 # Dockerfiles typically start with a 'base image'. There are loads of these
 # and you can find them at hub.docker.com.
-# We're going to use a base image for Python veresion 3.11
+# We're going to use a base image for Python version 3.11
 FROM python:3.11
 
 # This base image contains essentially everything necessary for a 'virtual

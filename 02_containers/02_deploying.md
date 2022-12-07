@@ -10,9 +10,7 @@ Learn to explain how containerisation helps with deployment.
 
 ## Guidance
 
-<!-- OMITTED -->
-
-_Video coming soon._
+[Video Alternative](https://www.youtube.com/watch?v=N4ZtwCXP6C4&t=1085s)
 
 We're going to use a tool called Exoframe to deploy our container to the Cloud..
 This is a simplified cloud deployment system, providing only the most essential
