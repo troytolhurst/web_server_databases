@@ -267,7 +267,7 @@ This is a set of questions you can investigate to learn more. Pick the ones that
 interest you.
 
 * :hot_pepper: What is a `CNAME` record for?
-* :hot_pepper: What is an `MS` record for?
+* :hot_pepper: What is an `MX` record for?
 * :hot_pepper::hot_pepper: What is a `TXT` record for? Can you find some
   examples for real domains out there?
 * :hot_pepper::hot_pepper: What packets do `nslookup` and `dig` generate? Can
