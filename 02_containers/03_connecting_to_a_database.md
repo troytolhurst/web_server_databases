@@ -69,7 +69,7 @@ each part. Remember — you're extremely unlikely to use Exoframe in your job, s
 don't focus on the specifics but instead the general ideas. I'll highlight the
 general things you should take away with `TAKEAWAY`.
 
-```json
+```jsonc
 // Note: if you want to use this config, all the comments will need to be
 // deleted. JSON doesn't support comments sadly!
 {
@@ -176,7 +176,7 @@ code accesses it.
 
 Let's look at the Exoframe configuration above to see how it applies there.
 
-```json
+```jsonc
     // ...
     "env": {
       // We set one up with the name POSTGRES_PASSWORD
@@ -236,7 +236,7 @@ the database server.
 
 We can do this with the following config:
 
-```json
+```jsonc
 {
   // We'll name it once again
   "name": "YOURNAME-message-web",

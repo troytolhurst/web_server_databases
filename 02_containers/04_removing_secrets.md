@@ -23,7 +23,7 @@ use the `exoframe secret` feature to do this.
 
 Let's take the database config as an example:
 
-```json
+```jsonc
 {
   "name": "YOURNAME-message-database",
   "domain": false,
@@ -38,7 +38,7 @@ Let's take the database config as an example:
 
 We will change the `POSTGRES_PASSWORD` entry to the following:
 
-```json
+```jsonc
   // ...
   "POSTGRES_PASSWORD": "@YOURNAME-postgres-password"
   // ...
@@ -49,7 +49,7 @@ Exoframe to fill in for us with the real secret.
 
 We'll do the same in the `web` project too:
 
-```json
+```jsonc
 {
   "name": "YOURNAME-message-web",
   "domain": "YOURNAME-messages.xf.mkrs.link",
