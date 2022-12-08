@@ -414,8 +414,12 @@ your coach to take a look at and make sure it's all OK.
 <details>
   <summary>:hot_pepper::hot_pepper: Can I have a bit more challenge?</summary>
 
+  ---
+
   Sure — try altering the application to use Jinja templates, like in the web
   module, rather than raw strings.
+
+  ---
 
 </details>
 
