@@ -2,7 +2,11 @@
 
 In this phase you will wrap a simple web application into containers and deploy
 them to a toy cloud hosting system we have provided. We've containerised our
-web server, deployed it, and now we're going to connect it to a database.
+web server and deployed it. 
+
+Next we'd like to set up a cloud deployment with a database. Our last app was
+too simple to need a database however, so we'll shift to one that does. To
+deploy this, we'll need to deploy a database and connect to it.
 
 ## Objective
 
@@ -33,16 +37,20 @@ use specific cloud computing services designed for databases.
 
 Cloud providers like AWS and GCP have specific services for this purpose. One of
 the AWS services is called [Relational Database
-Service](https://aws.amazon.com/rds/) (RDS). You will set up an RDS using a web
-panel or a CLI and you will get an address and authentication details to access
+Service](https://aws.amazon.com/rds/) (RDS). You would set up an RDS using a web
+panel or a CLI and then receive an address and authentication details to access
 the database.
 
 <details>
   <summary>:speech_balloon: What if I was using a non-relational database?</summary>
 
+  ---
+
   Same idea, but you'd use a different service rather than RDS. You might use
   [AWS DynamoDB](https://aws.amazon.com/dynamodb/) or [MongoDB
   Atlas](https://www.mongodb.com/atlas)
+
+  ---
 
 </details>
 
@@ -53,7 +61,7 @@ that sets up a database for us that we can connect to from our web server.
 There's an example project in
 [`codebases/database_setup`](../codebases/message_server). We'll talk through
 the key aspects of it below. After you've read this, we'll ask you to go and set
-it up yourself. Finally, we'll ask you to build your own setup from scratch.
+it up yourself.
 
 There are three key aspects:
 
