@@ -11,7 +11,7 @@ Learn to explain how secrets are removed from config and code.
 
 ## Guidance
 
-<!-- OMITTED -->
+[Video Alternative](https://www.youtube.com/watch?v=JmwqJu2cCUQ&t=1729s)
 
 _Video coming soon._
 
@@ -65,7 +65,8 @@ We'll do the same in the `web` project too:
 }
 ```
 
-Then, before re-deploying this, we will tell Exoframe to set the secret:
+Then, before re-deploying this, we will tell Exoframe to store the secret in its
+secrets database and then use it when it sees that placeholder.
 
 ```shell
 ; exoframe secret set YOURNAME-postgres-password 47378f40d8ff4bffdfc5b883ee4e250c0eeb26bb
@@ -90,9 +91,12 @@ And then let's deploy:
 Check that everything still works.
 
 Now your code and config is entirely free of secrets and safe to work with `git`
-and Github!
+and Github! Exoframe secrets are specific to Exoframe, but all cloud systems
+will have some way of storing secrets safely. Look for 'environment variables'
+or a 'secrets' section in whatever systems you end up using in your career.
 
-In the next phase, we'll put that to use by setting up CI and CD.
+In the next phase, we'll put that secrets to further use by setting up CI and
+CD.
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

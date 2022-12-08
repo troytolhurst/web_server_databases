@@ -14,9 +14,7 @@ Learn to explain how data is persisted in the cloud.
 
 ## Guidance
 
-<!-- OMITTED -->
-
-_Video coming soon._
+[Video Alternative](https://www.youtube.com/watch?v=JmwqJu2cCUQ&t=0s)
 
 Docker containers are what's called _ephemeral_. You start them, you can change
 some files within them, and then if you stop the container those files all go
@@ -402,6 +400,9 @@ Once you've got this project set up, deploying it is like this:
 ; exoframe deploy --update
 ```
 
+Wait a minute or so, and then you can visit your new app at something like
+`https://YOURNAME-messages.xf.mkrs.link`
+
 ## Exercise
 
 Get your own version of this deployed and working.
@@ -423,8 +424,8 @@ your coach to take a look at and make sure it's all OK.
 
 </details>
 
-Then move on to the next phase and CI-CD — there will be a lot of opportunity to
-work on your project then.
+Then move on to the next step. There will be more there will be a lot of
+opportunity to work on your project in the CI-CD phase.
 
 
 [Next Challenge](04_removing_secrets.md)
