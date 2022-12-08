@@ -128,8 +128,8 @@ general things you should take away with `TAKEAWAY`.
 Environment variables are key to handling what we call 'secrets' in a
 deployment. Secrets are, well, secret. Like passwords. So we shouldn't just put
 them in our code or configuration — these might get uploaded to Github and
-therefore not be secret anymore. This is a security risk and generally regarded
-as extremely poor practice.
+therefore not be secret anymore. This is a security risk and is generally
+regarded as extremely poor practice.
 
 However, our programs do need to find out about these secrets, so we rely on a
 variety of techniques to get them injected into our programs without getting
