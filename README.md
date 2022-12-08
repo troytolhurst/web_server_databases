@@ -50,8 +50,8 @@ using Docker.
 These exercises guide you through setting up Continuous Integration and
 Deployment for a web application.
 
-1. Continuous Integration: Running the test suite
-2. Continuous Deployment: Deploying the system
+1. [Continuous Integration: Running the test suite](03_shipping/01_ci.md)
+2. [Continuous Deployment: Deploying the system](03_shipping/02_cd.md)
 
 <!-- OMITTED -->
 
