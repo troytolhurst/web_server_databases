@@ -332,6 +332,8 @@ interest you.
 * :hot_pepper::hot_pepper::hot_pepper: What happens in a WiFi network if two
   packets are transmitted at the same time? Is it a problem?
 
+<!-- OMITTED -->
+
 
 [Next Challenge](04_curl_bite.md)
 

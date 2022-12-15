@@ -168,7 +168,7 @@ details, just note that they are using structured approaches to communicate.
   # is because one server might actually host many domains.
 > User-Agent: curl/7.79.1
   # We tell the server what software we're using to make the request.
-> Accept: */*
+> Accept: * / *
   # We tell the server what kind of response we can receive. If we were
   # expecting a JSON response we might say `Accept: application/json`, but in
   # this case we're happy with anything.
@@ -404,6 +404,10 @@ interest you.
   HTTP server that is fully featured enough to respond to requests from your web
   browser and have them displayed. For this you will need to understand the
   HTTP protocol, how to parse HTTP requests, and how to send responses.
+
+<!-- OMITTED -->
+
+
 
 
 [Next Challenge](05_dig_bite.md)
