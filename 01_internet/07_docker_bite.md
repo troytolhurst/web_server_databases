@@ -250,6 +250,8 @@ interest you.
 * :hot_pepper::hot_pepper::hot_pepper: Not all programs can run on all
   computers. Why is this? How does Docker handle this problem?
 
+<!-- OMITTED -->
+
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

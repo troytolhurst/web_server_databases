@@ -223,6 +223,8 @@ interest you.
   can decrypt them with my private key. What technologies and systems prevent
   this? In what situation might they fail?
 
+<!-- OMITTED -->
+
 
 [Next Challenge](07_docker_bite.md)
 

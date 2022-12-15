@@ -275,6 +275,8 @@ interest you.
 * :hot_pepper::hot_pepper::hot_pepper: What is an `AAAA` record for? How does it
   fit into the growth of the Internet?
 
+<!-- OMITTED -->
+
 
 [Next Challenge](06_mkcert_bite.md)
 

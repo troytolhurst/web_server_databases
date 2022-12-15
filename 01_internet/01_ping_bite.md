@@ -168,8 +168,8 @@ of the telegraph operator's finger on their Morse code key.
 
 </details>
 
-Now — disconnect your Internet connection. This is probably by disabling your
-WiFi connection.
+Now — disconnect your Internet connection. This is most easily done by disabling
+your WiFi connection.
 
 Take a look (and listen) at how `ping` responds. Mine looks like this:
 
@@ -233,6 +233,8 @@ interest you.
   advise you not to use it?
 * :hot_pepper::hot_pepper::hot_pepper: Could a ping ever respond with more than
   one packet? Can you find a way to use `ping` such that it does?
+
+<!-- OMITTED -->
 
 
 [Next Challenge](02_traceroute_bite.md)

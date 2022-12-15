@@ -255,6 +255,8 @@ interest you.
 * :hot_pepper::hot_pepper::hot_pepper: How does `traceroute` actually work out
   routes? What is a 'ttl'? What is a 'time exceeded' reply?
 
+<!-- OMITTED -->
+
 
 [Next Challenge](03_telnet_bite.md)
 
