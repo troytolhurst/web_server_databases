@@ -4,6 +4,10 @@ Learn to explain how computers share a common physical connection.
 
 [Video Alternative](https://www.youtube.com/watch?v=5dDqQWkEKzU&t=0s)
 
+_If you're following along in the video and you run into trouble getting
+Termshark to show Telnet packets — scroll down to "I don't see anything like
+that — `termshark` just waits!"_
+
 ## The question: How do computers share a common physical connection?
 
 You might have heard of the idea of cyberspace. It conjures images of cool kids
