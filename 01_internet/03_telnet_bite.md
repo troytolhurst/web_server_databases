@@ -212,6 +212,50 @@ Now let's start `telnet` again. Bring up another terminal alongside the one with
 
 ![Example of a Termshark window with packets](../resources/termshark-window.png)
 
+<details>
+  <summary>:confused: I don't see anything like that — `termshark` just waits!</summary>
+
+  ---
+
+  Termshark may be listening on the wrong interface. An interface represents
+  a piece of computer hardware that can send and receive packets. A computer
+  may have multiple interfaces which are connected to different networks.
+
+  We want to find the one that gets us to the Internet.
+
+  To find it, run:
+
+  ```shell
+  ; route get 8.8.8.8
+  # Example response...
+     route to: dns.google
+destination: default
+       mask: default
+    gateway: hirouter.net
+  interface: en0
+      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1500         0
+  ```
+
+  This command will tell us about the route traffic to a given IP address will
+  take.
+  
+  Look at the line that says `interface:`. Here, it says `en0`. That's the name
+  of the interface we want.
+
+  Quit `termshark`, and then restart it like so:
+
+  ```shell
+  ; sudo termshark -i en0 -f "port 23"
+  ```
+
+  But ensure `en0` is whatever `route` told you it would be.
+
+  ---
+
+</details>
+
 There's a lot of information here. I'll draw your attention to the key parts —
 you can tune out the rest.
 
