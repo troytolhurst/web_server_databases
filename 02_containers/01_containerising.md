@@ -52,7 +52,7 @@ You'll need to make a couple tweaks to your Flask app to make it run properly
 in a container. This isn't unusual — most software does need a few adjustments
 to prepare it for deployment.
 
-The key change for us is to `app.rb` in the section where you run the flask
+The key change for us is to `app.py` in the section where you run the flask
 server. Yours might look like this:
 
 ```python
