@@ -124,7 +124,7 @@ show the connection is secure. If you click into the icon in the address bar you
 will see something like this:
 
 ![A browser notice to say that the website connection is not
-secure](../resources/insecure-notice.png)
+secure via the "secure site certificate" button in Safari](../resources/insecure-notice.png)
 
 You can also open `termshark` and look at the contents of the packets:
 
@@ -191,7 +191,7 @@ Now when you click into the icon in the address bar you will see something like
 this:
 
 ![A browser notice to say that the website connection is
-secure](../resources/secure-notice.png)
+secure via the "secure site certificate" button in Safari](../resources/secure-notice.png)
 
 And if you try to snoop on the connection with `termshark` you'll see that the
 contents are encrypted. You won't be able to see the plain text contents of the

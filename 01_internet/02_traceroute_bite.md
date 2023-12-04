@@ -41,11 +41,10 @@ from point A to point B.
 
 To get a bit closer to computers, let's take a look at a diagram of a network:
 
-![A network, maybe a telephone network. It has four exchange nodes linked
-together with two or three nodes coming off of
-them](../resources/network-1.excalidraw.png)
+![A network, maybe a telephone network. It has four big exchange nodes linked
+together with multiple wires and two or three smaller nodes coming off each exchange node with one wire](../resources/network-1.excalidraw.png)
 
-Imagine the smaller nodes as individual telephones, and the big nodes as
+Imagine the smaller nodes (labelled with a letter followed by a number) as individual telephones, and the big nodes (labelled with a letter followed by X) as
 telephone exchanges. The people running these exchanges take calls from their
 small nodes and try to get them routed to where they want to go.
 
@@ -53,7 +52,7 @@ Let's imagine D1 wants to call G3. Let's trace a route between them so they can
 chat.
 
 ![A network with the route between D1 and G3
-highlighted](../resources/network-2.excalidraw.png)
+highlighted going through DX, EX and GX](../resources/network-2.excalidraw.png)
 
 That works, but it's not the only option. We might just as easily have gone via
 FX. There are multiple paths through the network to get to the destination.
