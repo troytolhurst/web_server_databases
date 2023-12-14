@@ -5,6 +5,6 @@
   "env": {
     "APP_ENV": "PRODUCTION",
     "POSTGRES_HOSTNAME": "troytolhurst-message-database",
-    "POSTGRES_PASSWORD": "47378f40d8ff4bffdfc5b883ee4e250c0eeb26bb"
+    "POSTGRES_PASSWORD": "@troytolhurst-postgres-password"
   }
 }

@@ -4,7 +4,7 @@
   "hostname": "troytolhurst-message-database",
   "image": "postgres:12",
   "env": {
-    "POSTGRES_PASSWORD": "47378f40d8ff4bffdfc5b883ee4e250c0eeb26bb"
+    "POSTGRES_PASSWORD": "@troytolhurst-postgres-password"
   },
   "volumes": ["troytolhurst:/var/lib/postgresql/data"]
 }
